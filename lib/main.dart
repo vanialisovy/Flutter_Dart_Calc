@@ -10,7 +10,15 @@ class AppHomeWindow extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Center(child: const Text("Home")),
+          backgroundColor: Color.fromARGB(77, 70, 61, 61),
+          title: Center(
+              child: const Text(
+            "Calculator",
+            style: TextStyle(
+                color: Color.fromARGB(255, 255, 255, 255),
+                fontFamily: "Accio",
+                fontSize: 40),
+          )),
         ),
         body: HomeWindow(),
       ),
